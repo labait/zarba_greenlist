@@ -1,0 +1,227 @@
+:root {
+    --dark-color: #023a15;
+    --light-color: #ffe6e2;
+    --black:##000000;
+    --white: #ffffff;
+    --primary-color: #f09c96;
+    }
+    
+    html {
+    font-size:16px;
+    scroll-behavior: smooth;
+    }
+
+    body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size:1rem; /*1rem=16px* 2rem=32px... tutto il sito scala in proporzione -> 18px=1.125rem*/
+    line-height:1.4; /* 140% della dimensione del font */
+    font-weight:400;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--black);
+    background-color: var(--white);
+    }
+
+    
+    * {
+    outline: none;
+    box-sizing: border-box;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    padding:0;
+    line-height: 1.2;}
+    
+    p {  
+    line-height: 120%;
+    font-size: 0.875rem; /*14 px*/
+    color: var(--dark-grey);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    }
+    
+    @media (min-width: 450px) {
+    
+    p {
+    font-size: 0.8rem; /*12 px*/
+    line-height: 140%;
+    }
+    }
+    
+    .fluid {
+     width:100%;
+    height:100%;
+    }
+    
+    .section {
+    position:relative;
+    width: 100%;
+    height: 90vh;
+    }
+    
+    .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    }
+    
+    @media (min-width:450px) {
+    .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+    }
+
+    @media (min-width:850px) {
+    .container {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    }
+    }
+    
+    a {
+    text-decoration: none;
+    color: var(--dark-color);
+    }
+
+    .color--rosa {
+    color: var(--primary-color);
+
+    }
+
+
+    /* Nav */
+    .header--main {
+    background-color: var(--dark-color);
+    }
+
+    .header--main .container {
+    padding-bottom: 2.5rem;
+    }
+
+    .main--menu {
+    margin-left: 2.5rem;
+    }
+
+    .main--menu .menu--item a {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    position: relative;
+    padding-left: 1.8rem;
+    transition: 0.3 ease;
+    will-change: auto;
+    opacity: 1;
+    }
+
+    .main--menu .menu--item a:hover {
+    opacity: 0.8;
+    }
+
+  /* Prima parte */
+
+     .section--hero {
+    background-color: var(--dark-color);
+    }
+
+    .section-title {
+    color: var(--white);
+    }
+
+    .section-title h1 {
+    font-family:  'Yeseva One', cursive;
+    font-size: calc(3vw + 1.375rem);
+    line-height: 1;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    }
+
+    .section-title p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    padding-right: 5rem;
+    margin-bottom: 3.5rem;
+    }
+
+    .section--img {
+    padding-left: 6rem;
+    }
+
+    .img--sketch {
+    position: absolute;
+    height: 100%;
+    width: auto;
+    }
+
+
+    .img--social_2 {
+    margin-left: 13rem;
+    }
+
+/* Bottone */
+
+    a.link--button {
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500;
+    border-radius: 4px;
+    background-color: var(--white);
+    color: black;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+    will-change: auto;
+    
+    }
+
+    a.link--button:hover {
+    opacity: 0.8;
+
+    }
+
+ /* Seconda parte */
+        .section-content-title h1 {
+        font-family:  'Yeseva One', cursive;
+        font-size: calc(3vw + 1.375rem);
+        line-height: 1.2;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        color: var(--primary-color);
+        }
+    
+        .section-content-title p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 1.125rem;
+        padding-right: 12rem;
+        margin-bottom: 3.5rem;
+        color: var(--black);
+        }
+    
+        .section--img {
+        
+        
+        }
+    
+        .img--sketch {
+        position: absolute;
+        height: 100%;
+        width: auto;
+        }
+    
+    
+        .img--social_2 {
+        margin-left: 13rem;
+        }
+   
+        .img-about {
+        margin-top: 22rem;
+        margin-bottom: -4rem;
+        }
+    
+
+    
